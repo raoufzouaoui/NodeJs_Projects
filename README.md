@@ -22,30 +22,30 @@ Open your web browser and navigate to http://localhost:3000/.
 Endpoints
 This project provides the following endpoints:
 
-#### Get all tasks
+#### - Get all tasks
 ##### GET /tasks
 This endpoint returns a list of all tasks.
 
-####  Create task
+#### - Create task
 ##### POST /tasks
 This endpoint allows you to create a new task. You must provide the following parameters in the request body:
 
-####  Get single task
+#### - Get single task
 ##### GET /tasks/:id
 This endpoint returns a single task with the specified ID.
 
-####  Update task
+#### - Update task
 ##### PUT /tasks/:id
 This endpoint allows you to update an existing task. You must provide the following parameters in the request body:
 
-####  Delete task
+#### - Delete task
 ##### DELETE /tasks/:id
 This endpoint allows you to delete a task with the specified ID.
 
-####  Edit task
+#### - Edit task
 ##### PATCH /tasks/:id
 This endpoint allows you to edit a task with the specified ID. You must provide the following parameters in the request body:
 
 
-##Conclusion
+##  Conclusion
 That's all there is to it! You should now have a working Task Manager project that allows you to manage tasks. Feel free to customize the project to your liking, and let us know if you have any questions or feedback. Happy coding!
