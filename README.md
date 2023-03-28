@@ -9,11 +9,11 @@
 
 
 
-##Task Manager - Node.js Project
+##  Task Manager - Node.js Project
 This is a simple Node.js project for managing tasks. It allows users to perform basic CRUD operations on tasks, including creating, reading, updating, and deleting tasks. This README will guide you through the setup process and the available endpoints.
 
-####Getting Started
-#####To get started, follow these instructions:
+####  Getting Started
+##### To get started, follow these instructions:
 
 Clone the repository onto your local machine.
 Install the necessary dependencies by running npm install.
