@@ -189,3 +189,34 @@ This endpoint allows you to delete a job with the specified ID. To access this e
 
 ##  Conclusion
 That's all there is to it! You should now have a working Jobs API project that allows you to manage jobs, with token-based authentication. Additionally, users can register and login to obtain a token. Feel free to customize the project to your liking, and let us know if you have any questions or feedback. Happy coding!
+
+
+
+
+
+
+# Projects 4 :
+
+##  Store API - Node.js Project
+This is a simple Node.js project for managing products in a store. It includes endpoints for getting all products, filtering products based on certain criteria, and getting a single product. This project uses a MongoDB database to store the product data. This README will guide you through the setup process and the available endpoints.
+
+####  Getting Started
+##### To get started, follow these instructions:
+
+Clone the repository onto your local machine.
+Install the necessary dependencies by running npm install.
+Start the application by running npm start.
+Open your web browser and navigate to http://localhost:3000/.
+Endpoints
+This project provides the following endpoints:
+
+####  Get All Products
+##### GET /products
+This endpoint returns all products. You can provide the following query parameters to filter the results:
+
+numericFilters (optional): Allows filtering of products based on numeric criteria. This should be a comma-separated string of conditions, in the format of field>value or field>=value. For example, price>40,rating>=4 would return all products with a price greater than 40 and a rating greater than or equal to 4.
+
+
+####  Get Single Product
+##### GET /products/:id
+This endpoint returns a single product based on the provided ID.
