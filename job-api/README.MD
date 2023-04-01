@@ -6,7 +6,7 @@ The starter is a copy of jobs-api final project, just with additional data.
 
 #### Setup
 
-- navigate to 06.5-jobster-api/starter
+- navigate to job-api
 - install dependencies
 
 ```sh
